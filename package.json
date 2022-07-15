@@ -1,0 +1,41 @@
+{
+  "name": "my-application",
+  "version": "1.0.0",
+  "description": "my test application for friday",
+  "homepage": "https://github.com/marierichards/my-application#readme",
+  "bugs": "https://github.com/marierichards/my-application/issues",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "exist",
+    "exist-db",
+    "xml",
+    "xql",
+    "xquery"
+  ],
+  "author": {
+    "name": "marierichards",
+    "email": "marie_richards@hotmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha test/mocha/ --recursive --exit && mocha test/xqs/*.js",
+    "cypress": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marierichards/my-application",
+    "license": "MIT"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-xml": "^0.4.0",
+    "cypress": "^10.3.0",
+    "fs-extra": "^10.1.0",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4",
+    "xmldoc": "^1.2.0",
+    "yeoman-assert": "^3.1.1"
+  }
+}

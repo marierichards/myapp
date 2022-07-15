@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta 
+  xmlns="http://exist-db.org/xquery/repo">
+  <description>my test application for friday</description>
+  <author>marierichards</author>
+  <website>http://exist-db.org</website>
+  <status>alpha</status>
+  <license>MIT</license>
+  <copyright>true</copyright>
+  <type>application</type>
+  <target>my-app</target>
+  <prepare>pre-install.xq</prepare>
+  <finish>post-install.xq</finish>
+</meta>
